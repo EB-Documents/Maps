@@ -8,7 +8,7 @@
 // Big thanks to jps42 for updating and improving this file.
 
 // Example: Run rare maps level less than 3
-// [MapTier] >= "1" && [MapTier] < "16" && [Rarity] == "Rare" # [RunMap] == "true"
+// [MapTier] >= "1" && [MapTier] < "3" && [Rarity] == "Rare" # [RunMap] == "true"
 
 /////////////////////////////////////////////////////////////////////////////////////
 //                                                                                 //
@@ -39,11 +39,11 @@
 // [Rarity] == "Normal" # [IgnoreMap] == "true"
 
 // If you want to enable automatic quality upgrading
-// [MapTier] >= "1" && [Quality] <= "16" && [Rarity] == "Normal" # [UpgradeQuality] == "true"
+[MapTier] >= "1" && [Quality] <= "16" && [Rarity] == "Normal" # [UpgradeQuality] == "true"
 
 // If you want to transmute or alch maps before running them.
-// [Rarity] == "Normal" # [UpgradeToRare] == "true"
-[Rarity] == "Normal" # [UpgradeToMagic] == "true"
+[Rarity] == "Normal" # [UpgradeToRare] == "true"
+// [Rarity] == "Normal" # [UpgradeToMagic] == "true"
 
 // Map augmentation
 [Rarity] == "Magic" # [AugmentIfPossible] == "true"
@@ -107,8 +107,8 @@
 [map_monsters_reflect_%_elemental_damage] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Mirrored -- Monsters Reflect % Elemental Damage
 [map_monsters_reflect_%_elemental_damage] >= "1" && [Rarity] == "Rare" # [RerollMods] == "true" // Mirrored -- Monsters Reflect % Elemental Damage
 // [map_boss_attack_and_cast_speed_+%] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Overlord's -- Unique Boss Deals +% Dmg/ Has +% Attack & Cast Speed
-// [map_monsters_reflect_%_physical_damage] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Punishing -- Monsters Reflect % Physical Damage
-// [map_monsters_reflect_%_physical_damage] >= "1" && [Rarity] == "Rare" # [RerollMods] == "true" // Punishing -- Monsters Reflect % Physical Damage
+[map_monsters_reflect_%_physical_damage] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Punishing -- Monsters Reflect % Physical Damage
+[map_monsters_reflect_%_physical_damage] >= "1" && [Rarity] == "Rare" # [RerollMods] == "true" // Punishing -- Monsters Reflect % Physical Damage
 // [map_monsters_additional_chaos_resistance] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Resistant -- Mobs have Chaos/Ele Resistance
 // [map_monsters_damage_+%] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Savage -- +% Monster Dmg
 // [map_monsters_%_physical_damage_to_add_as_lightning] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Shocking -- Monsters Deal +% Extra Lightning Dmg
@@ -131,8 +131,8 @@
 // [map_player_charges_gained_+%] < "0" && [Rarity] == "Magic" # [RerollMods] == "true" // Of Drought - Players gain reduced Flask Charges
 // [map_player_has_level_X_elemental_weakness] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Of Elemental Weakness -- Players are cursed with Elemental Weakness
 // [map_player_has_level_X_enfeeble] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Of Enfeeblement -- Players are cursed with Enfeeble
-// [map_additional_player_maximum_resistances_%] < "0" && [Rarity] == "Magic" # [RerollMods] == "true" // Of Exposure -- (-X to -X)% maximum Player Resistances
-// [map_additional_player_maximum_resistances_%] < "0" && [Rarity] == "Rare" # [RerollMods] == "true" // Of Exposure -- (-X to -X)% maximum Player Resistances
+[map_additional_player_maximum_resistances_%] < "0" && [Rarity] == "Magic" # [RerollMods] == "true" // Of Exposure -- (-X to -X)% maximum Player Resistances
+[map_additional_player_maximum_resistances_%] < "0" && [Rarity] == "Rare" # [RerollMods] == "true" // Of Exposure -- (-X to -X)% maximum Player Resistances
 // [map_base_ground_fire_damage_to_deal_per_minute] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Of Flames -- Area has patches of burning ground
 // [map_monsters_area_of_effect_+%] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Of Giants -- Monsters have % increased Area of Effect
 // [map_ground_ice] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Of Ice -- Area has patches of chilled ground
@@ -141,8 +141,8 @@
 // [map_ground_lightning] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Of Lightning -- Area has patches of shocking ground
 // [map_monsters_accuracy_rating_+%] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Of Miring -- Players Dodge chance in unlucky/Mobs have +% Accuracy
 // [map_players_block_chance_+%] < "0" && [Rarity] == "Magic" # [RerollMods] == "true" // Of Rust -- Players have -% Block Chance/ -% Less Armour
-// [map_player_life_and_es_recovery_speed_+%_final] < "0" && [Rarity] == "Magic" # [RerollMods] == "true" // Of Smothering -- Players Recover Life, Mana and Energy Shield % slower
-// [map_player_life_and_es_recovery_speed_+%_final] < "0" && [Rarity] == "Rare" # [RerollMods] == "true" // Of Smothering -- Players Recover Life, Mana and Energy Shield % slower
+[map_player_life_and_es_recovery_speed_+%_final] < "0" && [Rarity] == "Magic" # [RerollMods] == "true" // Of Smothering -- Players Recover Life, Mana and Energy Shield % slower
+[map_player_life_and_es_recovery_speed_+%_final] < "0" && [Rarity] == "Rare" # [RerollMods] == "true" // Of Smothering -- Players Recover Life, Mana and Energy Shield % slower
 [map_players_no_regeneration_including_es] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Of Statis -- Players have no Life or Mana Regeneration
 [map_players_no_regeneration_including_es] >= "1" && [Rarity] == "Rare" # [RerollMods] == "true" // Of Statis -- Players have no Life or Mana Regeneration
 // [map_player_has_level_X_temporal_chains] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Of Temporal Chains -- Players are cursed with Temporal Chains
