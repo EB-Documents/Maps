@@ -232,33 +232,32 @@
 // [Type] == "Pit of the Chimera Map" # [RunMap] == "true" // guardian map
 
 // Unique maps
-// [Type] == "Acton's Nightmare" # [RunMap] == "true" 
-// [Type] == "Altered Distant Memory" # [RunMap] == "true" 
-// [Type] == "Augmented Distant Memory" # [RunMap] == "true" 
-// [Type] == "Caer Blaidd, Wolfpack's Den" # [RunMap] == "true" 
-// [Type] == "Cortex" # [RunMap] == "true" 
-// [Type] == "Death and Taxes" # [RunMap] == "true" 
-// [Type] == "Doryani's Machinarium" # [RunMap] == "true"
-// [Type] == "Hall of Grandmasters" # [RunMap] == "true" 
-// [Type] == "Hallowed Ground" # [RunMap] == "true" 
-// [Type] == "Infused Beachhead" # [RunMap] == "true" 
-// [Type] == "Maelström of Chaos" # [RunMap] == "true" 
-// [Type] == "Mao Kun" # [RunMap] == "true" 
-// [Type] == "Oba's Cursed Trove" # [RunMap] == "true" 
-// [Type] == "Olmec's Sanctum" # [RunMap] == "true" 
-// [Type] == "Pillars of Arun" # [RunMap] == "true" 
-// [Type] == "Poorjoy's Asylum" # [RunMap] == "true" 
-// [Type] == "Rewritten Distant Memory" # [RunMap] == "true" 
-// [Type] == "The Beachhead" # [RunMap] == "true" 
-// [Type] == "The Coward's Trial" # [RunMap] == "true" 
-// [Type] == "The Perandus Manor" # [RunMap] == "true" 
-// [Type] == "The Putrid Cloister" # [RunMap] == "true" 
-// [Type] == "The Twilight Temple" # [RunMap] == "true" 
-// [Type] == "The Vinktar Square" # [RunMap] == "true" 
-// [Type] == "Twisted Distant Memory" # [RunMap] == "true" 
-// [Type] == "Untainted Paradise" # [RunMap] == "true" 
-// [Type] == "Vaults of Atziri" # [RunMap] == "true" 
-// [Type] == "Whakawairua Tuahu" # [RunMap] == "true" 
+[Type] == "Overgrown Shrine Map" && [Rarity] == "Unique" # [IgnoreMap] == "true" // Acton's Nightmare
+[Type] == "Siege Map" && [Rarity] == "Unique" # [IgnoreMap] == "true" // Altered Distant Memory
+[Type] == "Courthouse Map" && [Rarity] == "Unique" # [IgnoreMap] == "true" // Augmented Distant Memory
+[Type] == "Underground River Map" && [Rarity] == "Unique" # [IgnoreMap] == "true" // Caer Blaidd, Wolfpack's Den
+[Type] == "Relic Chambers Map" && [Rarity] == "Unique" # [IgnoreMap] == "true" // Cortex
+[Type] == "Necropolis Map" && [Rarity] == "Unique" # [IgnoreMap] == "true" // Death and Taxes
+[Type] == "Maze Map" && [Rarity] == "Unique" # [IgnoreMap] == "true" // Doryani's Machinarium
+[Type] == "Promenade Map" && [Rarity] == "Unique" # [IgnoreMap] == "true" // Hall of Grandmasters
+[Type] == "Cemetery Map" && [Rarity] == "Unique" # [IgnoreMap] == "true" // Hallowed Ground
+[Type] == "Atoll Map" && [Rarity] == "Unique" # [IgnoreMap] == "true" // Maelström of Chaos
+[Type] == "Shore Map" && [Rarity] == "Unique" # [IgnoreMap] == "true" // Mao Kun
+[Type] == "Underground Sea Map" && [Rarity] == "Unique" # [IgnoreMap] == "true" // Oba's Cursed Trove
+[Type] == "Bone Crypt Map" && [Rarity] == "Unique" # [IgnoreMap] == "true" // Olmec's Sanctum
+[Type] == "Dunes Map" && [Rarity] == "Unique" # [IgnoreMap] == "true" // Pillars of Arun
+[Type] == "Temple Map" && [Rarity] == "Unique" # [IgnoreMap] == "true" // Poorjoy's Asylum
+[Type] == "Basilica Map" && [Rarity] == "Unique" # [IgnoreMap] == "true" // Rewritten Distant Memory
+[Type] == "Harbinger Map" && [Rarity] == "Unique" # [IgnoreMap] == "true" // The Beachhead, Infused Beachhead
+[Type] == "Cursed Crypt Map" && [Rarity] == "Unique" # [IgnoreMap] == "true" // The Coward's Trial
+[Type] == "Chateau Map" && [Rarity] == "Unique" # [IgnoreMap] == "true" // The Perandus Manor
+[Type] == "Museum Map" && [Rarity] == "Unique" # [IgnoreMap] == "true" // The Putrid Cloister
+[Type] == "Moon Temple Map" && [Rarity] == "Unique" # [IgnoreMap] == "true" // The Twilight Temple
+[Type] == "Courtyard Map" && [Rarity] == "Unique" # [IgnoreMap] == "true" // The Vinktar Square
+[Type] == "Park Map" && [Rarity] == "Unique" # [IgnoreMap] == "true" // Twisted Distant Memory
+[Type] == "Tropical Island Map" && [Rarity] == "Unique" # [IgnoreMap] == "true" // Untainted Paradise
+[Type] == "Vaal Pyramid Map" && [Rarity] == "Unique" # [IgnoreMap] == "true" // Vaults of Atziri
+[Type] == "Strand Map" && [Rarity] == "Unique" # [IgnoreMap] == "true" // Whakawairua Tuahu
 
 
 // === 5 Map mods - reroll ===
@@ -512,4 +511,4 @@
 // Also, priority list of actions is: [UpgradeMapTier](3) >> [IgnoreMap] >> [UpgradeToRare] >> [UpgradeToMagic] >> [RunMap]
 // If you enabled UpgradeMapTier and RunMap simultaneously for a map, the bot will run that map
 // 
-// ver.1.00, created by pincette
+// ver.1.01, created by pincette
