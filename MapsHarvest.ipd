@@ -62,6 +62,7 @@
 [Type] == "Core Map" # [SkipBossArena] == "true"             // A9 Trio boss
 [Type] == "Dark Forest Map" # [SkipBossArena] == "true"      // Wolf boss
 [Type] == "Desert Spring Map" # [SkipBossArena] == "true"    // Pantheon scorpion boss
+[Type] == "Graveyard Map" # [SkipBossArena] == "true"        // Skeleton trio bosses, bot doesn't wait for spawns
 [Type] == "Lair Map" # [SkipBossArena] == "true"             // Wolf boss
 [Type] == "Lava Chamber Map" # [SkipBossArena] == "true"     // Buttons on the arena to press
 [Type] == "Malformation Map" # [SkipBossArena] == "true"     // Corrupted Piety boss
@@ -69,6 +70,7 @@
 [Type] == "Racecourse Map" # [SkipBossArena] == "true"       // Mini-boss with damage reflection aura
 [Type] == "Reef Map" # [SkipBossArena] == "true"             // (\/)!_!(\/) boss
 [Type] == "Siege Map" # [SkipBossArena] == "true"            // Tukokhama boss
+[Type] == "Terrace Map" # [SkipBossArena] == "true"          // Yugul boss, bot doesn't wait for spawns
 [Type] == "Vaal Temple Map" # [SkipBossArena] == "true"	     // don't even try this
 
 
@@ -511,4 +513,4 @@
 // Also, priority list of actions is: [UpgradeMapTier](3) >> [IgnoreMap] >> [UpgradeToRare] >> [UpgradeToMagic] >> [RunMap]
 // If you enabled UpgradeMapTier and RunMap simultaneously for a map, the bot will run that map
 // 
-// ver.1.01, created by pincette
+// ver.1.02, created by pincette
