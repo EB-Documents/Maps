@@ -507,10 +507,7 @@
 
 
 // === 8 PS ===
-// So, at the moment map tiers don't work at all, because from the Harvest league, maps can basically have multiple tiers. Just don't use MapTier variable at all
-// Picking currency from a special currency tab doesn't work, put upgrading currency to the tab with maps (which should be ONLY normal type)
-// Currently, bot doesn't work correctly on maps with transitions (such as Villa or Tropical Island), avoid running them
-// Also, priority list of actions is: [UpgradeMapTier](3) >> [IgnoreMap] >> [UpgradeToRare] >> [UpgradeToMagic] >> [RunMap]
+// Priority list of actions is: [UpgradeMapTier](3) >> [IgnoreMap] >> [UpgradeToRare] >> [UpgradeToMagic] >> [RunMap]
 // If you enabled UpgradeMapTier and RunMap simultaneously for a map, the bot will run that map
 // 
-// ver.1.02, created by pincette
+// ver.1.03, created by pincette
