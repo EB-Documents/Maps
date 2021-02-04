@@ -32,6 +32,7 @@
 // === 2 Map types - UpgradeTier. These will be sold in a quantity of 3 pcs. to get 1 of higher tier ===
 
 // triggered doors - the bot can't open such doors
+[Type] == "Forking River Map" # [UpgradeMapTier] == "true" //  Has triggered doors
 [Type] == "Plaza Map" # [UpgradeMapTier] == "true"
 [Type] == "Vault Map" # [UpgradeMapTier] == "true"
 
@@ -125,7 +126,7 @@
 [Type] == "Bone Crypt Map" # [RunMap] == "true"
 [Type] == "Core Map" # [RunMap] == "true"
 [Type] == "Excavation Map" # [RunMap] == "true"
-[Type] == "Forking River Map" # [RunMap] == "true"
+// [Type] == "Forking River Map" # [RunMap] == "true"
 [Type] == "Infested Valley Map" # [RunMap] == "true"
 [Type] == "Lava Lake Map" # [RunMap] == "true"
 // [Type] == "Malformation Map" # [RunMap] == "true"
