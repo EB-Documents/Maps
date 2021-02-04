@@ -33,6 +33,7 @@
 
 // triggered doors - the bot can't open such doors
 [Type] == "Forking River Map" # [UpgradeMapTier] == "true" //  Has triggered doors
+[Type] == "Frozen Cabins Map" # [UpgradeMapTier] == "true" //  Has triggered doors
 [Type] == "Plaza Map" # [UpgradeMapTier] == "true"
 [Type] == "Vault Map" # [UpgradeMapTier] == "true"
 
@@ -151,7 +152,7 @@
 [Type] == "Crimson Township Map" # [RunMap] == "true"
 [Type] == "Cursed Crypt Map" # [RunMap] == "true"
 [Type] == "Fields Map" # [RunMap] == "true"
-[Type] == "Frozen Cabins Map" # [RunMap] == "true"
+// [Type] == "Frozen Cabins Map" # [RunMap] == "true"
 // [Type] == "Glacier Map" # [RunMap] == "true"
 [Type] == "Haunted Mansion Map" # [RunMap] == "true"
 // [Type] == "Lair Map" # [RunMap] == "true"
